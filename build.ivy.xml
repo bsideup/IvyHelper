@@ -23,7 +23,7 @@
 
 	<target name="update" depends="-install-ivy" description="Download project dependencies">
 		<ivy:settings file="ivysettings.xml" />
-		<ivy:resolve />
+		<ivy:resolve checksums=""/>
 		<ivy:retrieve />
 	</target>
 </project>
