@@ -9,7 +9,7 @@
 			</url>
 		</chain>
 
-		<filesystem name="local" m2compatible="false" force="false" local="true">
+		<filesystem name="local" m2compatible="true" force="false" local="true">
 			<artifact pattern="${basedir}/repo/[revision]/[artifact]-[revision].[ext]" />
 		</filesystem>
 	</resolvers>
