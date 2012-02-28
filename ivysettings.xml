@@ -4,7 +4,7 @@
 
 	<resolvers>
 		<chain name="chained" returnFirst="true">
-			<url name="github" m2compatible="true">
+			<url name="github" m2compatible="false">
 				<artifact pattern="https://github.com/[organisation]/[module]/raw/master/repo/[revision]/[artifact]-[revision].[ext]" />
 			</url>
 		</chain>
