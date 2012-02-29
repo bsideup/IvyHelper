@@ -2,7 +2,7 @@
 <project name="IvyHelper" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
 
 	<property name="ivy.install.version" value="2.2.0" />
-	<property name="ivy.jar.file" value="${user.home}/ivy.jar" />
+	<property name="ivy.jar.file" value="${user.home}/.ivy2/ivy.jar" />
 
 	<target name="-download-ivy" unless="skip.download">
 		<echo message="installing ivy..." />
