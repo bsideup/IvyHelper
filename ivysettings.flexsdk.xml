@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><ivysettings>	<resolvers>		<url name="flexsdk" m2compatible="false">			<artifact pattern="http://fpdownload.adobe.com/pub/[module]/sdk/builds/[module][revision]/[module]_sdk_[revision].[major].[ext]" />		</url>	</resolvers></ivysettings>
+<?xml version="1.0" encoding="UTF-8"?>
+<ivysettings>
+	<resolvers>
+		<url name="flexsdk" m2compatible="false">
+			<artifact pattern="http://fpdownload.adobe.com/pub/[module]/sdk/builds/[module][major]/[module]_sdk_[revision].[ext]" />
+		</url>
+	</resolvers>
+</ivysettings>
