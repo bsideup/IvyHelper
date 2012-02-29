@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><ivysettings>	<resolvers>		<url name="github" m2compatible="false">			<artifact pattern="https://github.com/[organisation]/[module]/raw/master/repo/[revision]/[artifact]-[revision].[ext]" />			<ivy pattern="https://github.com/[organisation]/[module]/raw/master/repo/[revision]/[artifact]-[revision].[ext]" />		</url>	</resolvers></ivysettings>
+<?xml version="1.0" encoding="UTF-8"?>
+<ivysettings>
+	<resolvers>
+		<url name="github" m2compatible="false" checksums="">
+			<artifact pattern="https://github.com/[organisation]/[module]/raw/master/repo/[revision]/[artifact]-[revision].[ext]" />
+			<ivy pattern="https://github.com/[organisation]/[module]/raw/master/repo/[revision]/[artifact]-[revision].[ext]" />
+		</url>
+	</resolvers>
+</ivysettings>
